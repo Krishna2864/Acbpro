@@ -2,4 +2,4 @@
 first cummit
 finishing touches are remainig 
 
-deleting the view functions that are not needed
+delete the view functions that are not needed
