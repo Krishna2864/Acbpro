@@ -4,8 +4,8 @@ from rest_framework.routers import DefaultRouter
 from . import views
 
 router = DefaultRouter()
-router.register(r'admin', views.AdvertisementManagementViewset)
-router.register(r'user', views.AdminManagementViewset)
+router.register(r'admin', views.AdminManagementViewset)
+router.register(r'user', views.UserManagementViewset)
 
 
 router.register(r'vehicle', views.VehicleManagementViewset,basename='vehicle')
