@@ -5,7 +5,7 @@ from . import views
 
 router = DefaultRouter()
 router.register(r'admin', views.AdminManagementViewset)
-router.register(r'user', views.UserManagementViewset)
+router.register(r'user', views.User_ManagementViewset)
 
 
 router.register(r'vehicle', views.VehicleManagementViewset,basename='vehicle')
