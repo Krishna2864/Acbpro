@@ -4,7 +4,7 @@ from rest_framework.routers import DefaultRouter
 from . import views
 
 router = DefaultRouter()
-router.register(r'admin', views.AdvertisementManagementViewset)
+router.register(r'admin', views.AdminManagementViewset)
 
 router.register(r'vehicle/', views.VehicleManagementViewset,basename='vehicle')
 #Todo Aayushi Change the URL name for rest
